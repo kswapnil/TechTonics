@@ -1,0 +1,105 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>controller.LoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrationController</servlet-name>
+  	<display-name>RegistrationController</display-name>
+  	<description></description>
+  	<servlet-class>controller.RegistrationController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutController</servlet-name>
+  	<display-name>LogoutController</display-name>
+  	<description></description>
+  	<servlet-class>controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTalkController</servlet-name>
+  	<display-name>AddTalkController</display-name>
+  	<description></description>
+  	<servlet-class>controller.AddTalkController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestTalkController</servlet-name>
+  	<display-name>RequestTalkController</display-name>
+  	<description></description>
+  	<servlet-class>controller.RequestTalkController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAttendingController</servlet-name>
+  	<display-name>ViewAttendingController</display-name>
+  	<description></description>
+  	<servlet-class>controller.ViewAttendingController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>wantToattend</servlet-name>
+  	<display-name>wantToattend</display-name>
+  	<description></description>
+  	<servlet-class>controller.wantToattend</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ApproveTalkController</servlet-name>
+  	<display-name>ApproveTalkController</display-name>
+  	<description></description>
+  	<servlet-class>controller.ApproveTalkController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>editController</servlet-name>
+  	<display-name>editController</display-name>
+  	<description></description>
+  	<servlet-class>controller.editController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrationController</servlet-name>
+  	<url-pattern>/RegistrationController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutController</servlet-name>
+  	<url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTalkController</servlet-name>
+  	<url-pattern>/AddTalkController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestTalkController</servlet-name>
+  	<url-pattern>/RequestTalkController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAttendingController</servlet-name>
+  	<url-pattern>/ViewAttendingController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>wantToattend</servlet-name>
+  	<url-pattern>/wantToattend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ApproveTalkController</servlet-name>
+  	<url-pattern>/ApproveTalkController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>editController</servlet-name>
+  	<url-pattern>/editController</url-pattern>
+  </servlet-mapping>
+ 
+  
+    
+   <welcome-file-list>  
+   <welcome-file>index.jsp</welcome-file>  
+   <welcome-file>home.html</welcome-file>  
+  </welcome-file-list>  
+</web-app>
